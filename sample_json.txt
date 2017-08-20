@@ -1,0 +1,43 @@
+{
+	"3": {
+		"state": {
+			"on": false,
+			"bri": 254,
+			"hue": 32000,
+			"sat": 254,
+			"effect": "none",
+			"xy": [
+				0.165,
+				0.5058
+			],
+			"ct": 153,
+			"alert": "none",
+			"colormode": "hs",
+			"reachable": true
+		},
+		"type": "Extended color light",
+		"name": "Living Room",
+		"modelid": "LCT014",
+		"manufacturername": "Philips",
+		"uniqueid": "00:17:88:01:02:54:a8:f0-0b",
+		"swversion": "1.15.2_r19181",
+		"swconfigid": "A315E69E",
+		"productid": "Philips-LCT014-1-A19ECLv4"
+	},
+	"4": {
+		"state": {
+			"on": false,
+			"bri": 152,
+			"alert": "none",
+			"reachable": true
+		},
+		"type": "Dimmable light",
+		"name": "Bedroom",
+		"modelid": "LWB014",
+		"manufacturername": "Philips",
+		"uniqueid": "00:17:88:01:02:f5:42:c6-0b",
+		"swversion": "1.15.2_r19181",
+		"swconfigid": "D1D2055F",
+		"productid": "Philips-LWB014-1-A19DLv3"
+	}
+}
