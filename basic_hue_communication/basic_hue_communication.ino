@@ -64,9 +64,10 @@ void loop() {
 }
 
 void alterHueColors() {
-  if(activated){
+  if(true){
     client.println("Hue is activated");
-    
+        Serial.print("activated ");
+
      // A series of four sample commands, which colour fades two lights between red and pink. Read up on the Hue API
     // documentation for more details on the exact commands to be used, but note that quote marks must be escaped.
     String command = "{\"on\": true,\"hue\": 50100,\"sat\":255,\"bri\":255,\"transitiontime\":"+String(random(15,25))+"}";
@@ -83,7 +84,7 @@ void alterHueColors() {
   else{
       activated = false;
       client.println("deactivated");
-      
+      Serial.print("not activated ");
       //was activated, so send a single off command
       String command = "{\"on\": false}";
       setHue(3,command);
